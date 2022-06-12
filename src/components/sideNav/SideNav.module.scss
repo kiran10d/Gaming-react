@@ -1,0 +1,33 @@
+.sideNav {
+  width: 220px;
+  margin-top: 57px;
+  position: fixed;
+  overflow: auto;
+  bottom: 0;
+  top: 0;
+  left: 20px;
+  padding-top: 65px;
+  h3{
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+  }
+  .childeren {
+    cursor: pointer;
+    i {
+      padding: 10px;
+      background-color: #2d2d2d;
+      color: #fff;
+      border-radius: 10px;
+      line-height: 0;
+      margin-bottom: 15px;
+      &:hover {
+        background-color: #fff;
+        color: #151515;
+      }
+    }
+    h6{
+        margin-bottom: 1rem;
+    }
+  }
+
+}

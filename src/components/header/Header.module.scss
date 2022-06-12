@@ -1,0 +1,17 @@
+.Header {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  padding: 15px 0 !important;
+  input {
+    border: none;
+    border-radius: 30px;
+    background-color: #3b3b3b;
+    padding: 8px 15px;
+    &:focus {
+      outline: none;
+      background-color: #ffffff;
+    }
+    &:hover {
+      background-color: #ffffff;
+    }
+  }
+}
